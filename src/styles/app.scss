@@ -1,5 +1,14 @@
 html {
     color: #fefefe;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fefefe;
+    &:hover {
+        color: #00A896;
+        text-decoration: none;
+    }
 }
 
 #app-container {
@@ -10,16 +19,12 @@ html {
 #scott-container {
     width: 50vw;
     background: url("../images/IMG_8797.jpg") center/cover;
-
 }
 
 #hero-container {
     width: 100%;
     color: #fefefe;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
     font-family: 'Poiret One', cursive;
     background: url("../images/d41219ee.png") center repeat; 
     & i {        
@@ -32,4 +37,18 @@ html {
         }
     }
     
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#nav-container {
+    padding: 1rem;
+    float: right;
 }
