@@ -7,7 +7,7 @@ export default () =>
 <div id="app-container">
     <div id="scott-container" className="col"></div>
     <div id="hero-container" className="col">
-        <h1>Scott<br/>Malmberg</h1>
+        <h1><strong>Scott<br/>Malmberg</strong></h1>
         <Descriptor />
         <div id="icon-container">
             <a href="https://github.com/ScottMalmberg" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
