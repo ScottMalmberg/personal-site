@@ -5,6 +5,7 @@ html {
 
 a {
     color: #fefefe;
+    transition: all 150ms ease-in-out;
     &:hover {
         color: #00A896;
         text-decoration: none;
