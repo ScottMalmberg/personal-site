@@ -16,8 +16,8 @@ export class Descriptor extends Component {
     
     
     getDescriptors = () => {
-        const physicalTraits = ["tall", "glasses-wearing", "blonde", "blue-eyed", "bearded"];
-        const personalityTraits = ["camper", "musician", "hiker", "animal-loving", "plant dad", "cook", "curry-eating"];
+        const physicalTraits = ["tall", "glasses-wearing", "blonde", "blue-eyed", "bearded", "sandals-wearing", "curly-haired"];
+        const personalityTraits = ["camper", "musician", "hiker", "animal-loving", "plant dad", "cook", "curry-eating", "dog and cat person"];
         this.setState({
             physicalTrait: physicalTraits[Math.floor(Math.random() * physicalTraits.length)], 
             personalityTrait: personalityTraits[Math.floor(Math.random() * personalityTraits.length)]
