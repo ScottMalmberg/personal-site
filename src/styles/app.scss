@@ -12,22 +12,23 @@ a {
     }
 }
 
-#app-container {
+.app-container {
     display: flex;
     height: 100vh;
 }
 
-#scott-container {
+.image-container {
     width: 50vw;
-    background: url("../images/IMG_8797.jpg") center/cover;
+    background-position: center;
+    background-size: cover;
 }
 
-#hero-container {
+.main-container {
     width: 100%;
     color: #fefefe;
     overflow: hidden;
     font-family: 'Poiret One', cursive;
-    background: url("../images/d41219ee.png") center repeat; 
+    background: url("../../public/images/d41219ee.png") center repeat; 
     & i {        
         font-size: 2.5rem;
         margin: 0 1rem;
@@ -40,7 +41,7 @@ a {
     
 }
 
-#content-container {
+.content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

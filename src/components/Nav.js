@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import {Link} from 'gatsby'
 
 export class Nav extends Component {
     render() {
         return (
             <div id="nav-container">
                 <nav> 
-                    <strong><a href="#">Words About Me</a> | 
-                    <a href="#"> Things I've Made</a> | 
-                    <a href="#"> Ways to Talk to Me</a></strong>
+                    <strong><Link to="/about">Words About Me</Link> | 
+                    <Link to="#"> Things I've Made</Link> | 
+                    <Link to="#"> Ways to Talk to Me</Link></strong>
                 </nav>
             </div>
         )
