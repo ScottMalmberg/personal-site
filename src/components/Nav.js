@@ -4,11 +4,12 @@ import {Link} from 'gatsby'
 export class Nav extends Component {
     render() {
         return (
-            <div id="nav-container">
+            <div className="nav-container">
                 <nav> 
-                    <strong><Link to="/about">Words About Me</Link> | 
-                    <Link to="#"> Things I've Made</Link> | 
-                    <Link to="#"> Ways to Talk to Me</Link></strong>
+                    <strong><Link to="/" activeStyle={{color: '#00A896'}}>Home</Link> |
+                    <Link to="/about" activeStyle={{color: '#00A896'}}> Words About Me</Link> | 
+                    <Link to="/portfolio" activeStyle={{color: '#00A896'}}> Things I've Made</Link> | 
+                    <Link to="#" activeStyle={{color: '#00A896'}}> Ways to Talk to Me</Link></strong>
                 </nav>
             </div>
         )

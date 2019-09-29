@@ -1,7 +1,9 @@
 html {
     color: #fefefe;
     box-sizing: border-box;
+    font-size: 18px;
 }
+
 
 a {
     color: #fefefe;
@@ -46,11 +48,22 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: calc(100% - 117px);
     width: 100%;
+    padding: 2rem;
+
+    & h1 {
+        color: #F0F3BD;
+        font-weight: bold;
+    }
 }
 
-#nav-container {
+.nav-container {
     padding: 1rem;
     float: right;
+    width: 100%;
+
+    & nav {
+        float: right;
+    }
 }

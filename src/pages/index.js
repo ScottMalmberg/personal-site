@@ -7,7 +7,7 @@ import Layout from "../styles/Layout"
 export default () => 
 
 <Layout background={"url('/images/Scott.jpg')"}>
-    <h1><strong>Scott<br/>Malmberg</strong></h1>
+    <h1 style={{color: '#F0F3BD'}}><strong>Scott<br/>Malmberg</strong></h1>
     <Descriptor />
     <div id="icon-container">
         <a href="https://github.com/ScottMalmberg" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
