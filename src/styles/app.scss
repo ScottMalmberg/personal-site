@@ -23,6 +23,7 @@ a {
     width: 50vw;
     background-position: center;
     background-size: cover;
+    background-origin: cent
 }
 
 .main-container {
@@ -30,7 +31,7 @@ a {
     color: #fefefe;
     overflow: hidden;
     font-family: 'Poiret One', cursive;
-    background: url("../../public/images/d41219ee.png") center repeat; 
+    background: url("../../public/images/Topo.png") center repeat; 
     & i {        
         font-size: 2.5rem;
         margin: 0 1rem;
@@ -65,5 +66,26 @@ a {
 
     & nav {
         float: right;
+    }
+}
+
+#portfolio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+.project-container {
+    padding: .5rem;
+    width: 100%;
+    & h2 {
+        text-align: center;
+    }
+
+    & img {
+        max-width: 100%;
+        margin-bottom: .5rem;
     }
 }
