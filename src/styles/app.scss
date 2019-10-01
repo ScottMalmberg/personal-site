@@ -27,9 +27,13 @@ a {
 }
 
 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    max-height: 100vh;
     color: #fefefe;
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Poiret One', cursive;
     background: url("../../public/images/Topo.png") center repeat; 
     & i {        
@@ -47,12 +51,11 @@ a {
 .content-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: calc(100% - 117px);
+    height: 95%;
     width: 100%;
     padding: 2rem;
-
     & h1 {
         color: #F0F3BD;
         font-weight: bold;
@@ -61,12 +64,12 @@ a {
 
 .nav-container {
     padding: 1rem;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-self: flex-start;
     width: 100%;
-
-    & nav {
-        float: right;
-    }
+    min-height: 5vh;
 }
 
 #portfolio-container {
@@ -80,6 +83,8 @@ a {
 .project-container {
     padding: .5rem;
     width: 100%;
+    height: 100%;
+    align-items: flex-start;
     & h2 {
         text-align: center;
     }
@@ -87,5 +92,28 @@ a {
     & img {
         max-width: 100%;
         margin-bottom: .5rem;
+    }
+    
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-caption {
+    margin-bottom: .5rem;
+}
+
+
+
+#home-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    & h1 {
+        align-self: center;
     }
 }

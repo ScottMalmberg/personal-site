@@ -1,14 +1,13 @@
 import React from 'react'
 import Layout from '../styles/Layout'
+import Project from '../styles/Project'
 
 export default () => 
 
     <Layout background="url('/images/Tree.JPG')">
         <h1>Here Are Some Things</h1>
         <div id="portfolio-container">
-            <div className="project-container">
-                <h2>Pug Latin</h2>
-                <img src="/images/Pug Latin.png" alt="A screenshot of Pug Latin."/>
+            <Project name="Pug Latin" image="/images/Pug Latin.png">
                 <p>
                     The idea for Pug Latin was based on FreeCodeCamp's Pig Latin Translator project in their JavaScript course. 
                     I wanted to build something different than just another Pig Latin Translator, so Pug Latin happened.
@@ -17,15 +16,35 @@ export default () =>
                 <ul>
                     <li>How HTML, CSS, and JS all work together to create a user experience.</li>
                     <li>How to trigger a function by interacting with the UI (clicking the button, passing through the text.)</li>
-                    <li>That there are so many different ways to build something.</li>
+                    <li>That there are so many different ways to build something, which is both exciting and daunting.</li>
                 </ul>
                 <div className="icon-container">
-                    <a href="https://codepen.io/scottmalmberg/pen/QXYmZo" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen"></i></a>
+                    <a href="https://codepen.io/scottmalmberg/pen/QXYmZo" target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-codepen"></i>
+                    </a>
                 </div>
-            </div>
-            <div className="project-container">
-                <h2>Pack</h2>
-            </div>
+            </Project>
+            <Project name="Pack" image="/images/Pack.png">
+                <p>
+                    Pack was my first React project. I camp a lot and am constantly consulting a note in my phone to make sure I packed everything for my trips. 
+                    So, instead of making a classic to-do list project, I decided to make a camping packing list. 
+                    I also wanted to be able to see the weather where I was going, so I hooked it up to WeatherBit's API.
+                    I learned:
+                </p>
+                <ul>
+                    <li>How to set up and work within a local development environment (I use VS Code.)</li>
+                    <li>How to work with Git and GitHub, setting up remotes via SSH, and deploying to GitHub Pages.</li>
+                    <li>Mobile breakpoints and how to test on multiple screen sizes to ensure a consistently nice user experience.</li>
+                    <li>I really enjoy working with SASS.</li>
+                    <li>Project organization (folders, class/id names, etc.)</li>
+                    <li>How to connect to an external API and manipulate JSON data.</li>
+                </ul>
+                <div className="icon-container">
+                    <a href="https://scottmalmberg.github.io/pack/" target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-github"></i>
+                    </a>
+                </div>
+            </Project>
         </div>
         
     </Layout>
