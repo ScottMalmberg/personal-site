@@ -7,8 +7,8 @@ import "../styles/app.scss"
 export default ({children, background}) => 
     
     <div className="app-container">
-        <div className="col image-container" style={{backgroundImage: background}}/>
-        <div className="col main-container">
+        <div className="image-container" style={{backgroundImage: background}}/>
+        <div className="main-container">
             <Nav />
             <div className="content-container">
                 {children}
