@@ -4,7 +4,7 @@ import Project from '../styles/Project'
 
 export default () => 
 
-    <Layout background="url('/images/Tree.JPG')">
+    <Layout image="url('/images/Tree.JPG')">
         <h1>Here Are Some Things</h1>
         <div id="portfolio-container">
             <Project name="Pug Latin" image="/images/Pug Latin.png">

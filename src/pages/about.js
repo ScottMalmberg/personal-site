@@ -3,7 +3,7 @@ import Layout from '../styles/Layout'
 
 export default () => 
 
-    <Layout background="url('/images/Fam.JPG')">
+    <Layout image="url('/images/Fam.JPG')">
         <h1>Hi There</h1>
         <p>
             My name is Scott. I was born and raised in Texas, but fell madly in love with nature when I moved to Utah. 
