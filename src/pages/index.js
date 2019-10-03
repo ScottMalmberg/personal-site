@@ -1,8 +1,7 @@
 import React from "react"
-import "../styles/app.scss"
 import Descriptor from "../components/Descriptor.js"
 import Layout from "../styles/Layout"
-
+require("../styles/app.scss")
 
 export default () => 
 
