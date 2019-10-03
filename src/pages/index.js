@@ -6,7 +6,7 @@ import Layout from "../styles/Layout"
 
 export default () => 
 
-<Layout background={"url('/images/Scott.jpg')"}>
+<Layout image={"url('/images/Scott.jpg')"}>
     
     <div id="home-container">
         <h1 style={{color: '#F0F3BD'}}><strong>Scott<br/>Malmberg</strong></h1>

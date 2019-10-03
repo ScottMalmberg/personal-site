@@ -4,6 +4,10 @@ html {
     font-size: 18px;
 }
 
+body {
+    font-family: 'Poiret One', cursive;
+}
+
 
 a {
     color: #fefefe;
@@ -32,10 +36,9 @@ a {
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    max-height: 100vh;
+ 
     color: #fefefe;
     overflow: auto;
-    font-family: 'Poiret One', cursive;
     background: url("../../public/images/Topo.png") center repeat; 
     & i {        
         font-size: 2.5rem;
@@ -70,7 +73,15 @@ a {
     justify-content: flex-end;
     justify-self: flex-start;
     width: 100%;
+    height: fit-content;
     min-height: 5%;
+}
+
+#mobile-nav {
+    display: none;
+    background: rgba(5,102,141,.8);
+    justify-content: center;
+    color: #fefefe;
 }
 
 #portfolio-container {
@@ -129,15 +140,32 @@ a {
     .app-container {
         flex-wrap: wrap;
         overflow: auto;
+        max-height: 100vh;
     }
     
     .image-container {
         width: 100vw;
-        height: 50%;
+        height: 70vh;
     }
 
     .main-container {
         width: 100vw;
-        height: 50%;
+        height: fit-content;
+    }
+    
+    #mobile-nav {
+        display: flex;
+
+        & a:hover {
+            color: #F0F3BD;
+        }
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 }
