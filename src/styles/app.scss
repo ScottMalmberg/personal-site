@@ -141,7 +141,8 @@ a {
 @media only screen and (max-width: 1055px) {
     .app-container {
         flex-wrap: wrap;
-        overflow: auto;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         max-height: 100vh;
     }
     

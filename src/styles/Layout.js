@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from "../components/Nav"
-import "../styles/app.scss"
 import MobileNav from '../components/MobileNav'
+require("../styles/app.scss")
 
 
 
