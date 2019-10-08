@@ -14,6 +14,9 @@ export class Descriptor extends Component {
         this.interval = setInterval(this.getDescriptors, 3000)
     }
     
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
     
     getDescriptors = () => {
         const physicalTraits = ["tall", "glasses-wearing", "blonde", "blue-eyed", "bearded", "sandals-wearing", "curly-haired"];
