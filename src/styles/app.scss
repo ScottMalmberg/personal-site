@@ -161,6 +161,10 @@ a {
         width: 100vw;
         min-height: 50vh;
     }
+    
+    .content-container {
+        padding: 1.5rem 2rem;
+    }
 
     .icon-container {
         & a {
@@ -179,7 +183,7 @@ a {
     
     #mobile-nav {
         display: flex;
-        font-size: .7rem;
+        font-size: .6rem;
 
         & a:hover {
             color: $light-blue;
