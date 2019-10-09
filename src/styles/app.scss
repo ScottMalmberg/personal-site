@@ -4,12 +4,20 @@ html {
     color: #fefefe;
     box-sizing: border-box;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Poiret One', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
     margin:0;
-    padding:0;
+    font-size: 3rem;
 }
 
 
@@ -39,7 +47,6 @@ a {
 .main-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 50%;
     color: #fefefe;
     overflow: auto;
@@ -61,7 +68,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 95%;
+    height: 100%;
     padding: 2rem;
     & h1 {
         color: #F0F3BD;
@@ -76,7 +83,7 @@ a {
     justify-content: flex-end;
     justify-self: flex-start;
     height: fit-content;
-    min-height: 5%;
+    font-size: 1.2rem;
 }
 
 #mobile-nav {
@@ -116,6 +123,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    & a {
+        font-size: 3rem!important;
+        margin: 0 1rem;
+    }
 }
 
 .icon-caption {
@@ -126,11 +138,13 @@ a {
 #home-container {
     display: flex;
     flex-direction: column;
-    margin: auto 0;
+    justify-content: center;
+    height: 100%;
     & h1 {
         align-self: center;
     }
 }
+
 
 @media only screen and (max-width: 1180px) {
     html {

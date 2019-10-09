@@ -4,9 +4,10 @@ import Layout from "../styles/Layout"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 require("../styles/app.scss")
 
-library.add(fab);
+library.add(fab, faEnvelope);
 
 export default () => 
 
@@ -18,6 +19,7 @@ export default () =>
         <div className="icon-container">
             <a href="https://github.com/ScottMalmberg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab","github"]}/></a>
             <a href="https://linkedin.com/in/ScottMalmberg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab","linkedin"]}/></a>
+            <a href="mailto:scott.malmberg@icloud.com"><FontAwesomeIcon icon="envelope"/></a>
         </div>
     </div>
     
