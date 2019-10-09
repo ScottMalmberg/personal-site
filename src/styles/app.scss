@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
+$light-blue: #0093CA;
+
 html {
     color: #fefefe;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +19,7 @@ body {
 
 h1 {
     margin:0;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -26,7 +28,7 @@ a {
     transition: all 150ms ease-in-out;
     text-decoration: none;
     &:hover {
-        color: #00A896;
+        color: $light-blue;
         text-decoration: none;
     }
 }
@@ -50,17 +52,7 @@ a {
     width: 50%;
     color: #fefefe;
     overflow: auto;
-    background: url("../../public/images/Topo.png") center repeat; 
-    & i {        
-        font-size: 2.5rem;
-        margin: 0 1rem;
-        color: #fefefe;
-        transition: all 150ms ease-in-out;
-        &:hover {
-            color: #00A896;
-        }
-    }
-    
+    background: url("../../public/images/Topo.png") center repeat;   
 }
 
 .content-container {
@@ -69,10 +61,11 @@ a {
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    padding: 2rem;
+    padding: 1.5rem 3rem;
     & h1 {
         color: #F0F3BD;
         font-weight: bold;
+        text-align: center;
     }
 }
 
@@ -83,12 +76,12 @@ a {
     justify-content: flex-end;
     justify-self: flex-start;
     height: fit-content;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #mobile-nav {
     display: none;
-    background: rgba(5,102,141,.8);
+    background: rgba(0,18,30,.8);
     justify-content: center;
     color: #fefefe;
 }
@@ -125,7 +118,7 @@ a {
     align-items: center;
 
     & a {
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 0 1rem;
     }
 }
@@ -142,15 +135,10 @@ a {
     height: 100%;
     & h1 {
         align-self: center;
+        text-align: left;
     }
 }
 
-
-@media only screen and (max-width: 1180px) {
-    html {
-        font-size: 1rem;
-    }
-}
 
 @media only screen and (max-width: 1055px) {
     body {
@@ -176,11 +164,14 @@ a {
 
     .icon-container {
         & a {
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
     }
 
     #home-container {
+        & h1 {
+            font-size: 1.5rem;
+        }
         & h2 {
             font-size: 1rem;
         }
@@ -188,10 +179,10 @@ a {
     
     #mobile-nav {
         display: flex;
-        font-size: .8rem;
+        font-size: .7rem;
 
         & a:hover {
-            color: #F0F3BD;
+            color: $light-blue;
         }
     }
 
@@ -200,10 +191,10 @@ a {
     }
     
     h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 }
