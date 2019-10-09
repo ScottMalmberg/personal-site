@@ -30,7 +30,7 @@ export class Descriptor extends Component {
     render() {  
         return (
             <div>
-                <h2>{"The " + this.state.physicalTrait + ", " + this.state.personalityTrait + " guy."}</h2>
+                <h2 style={{textAlign: "center"}}>{"The " + this.state.physicalTrait + ", " + this.state.personalityTrait + " guy."}</h2>
             </div>
         )
     }

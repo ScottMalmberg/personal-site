@@ -125,7 +125,7 @@ a {
     align-items: center;
 
     & a {
-        font-size: 3rem!important;
+        font-size: 3rem;
         margin: 0 1rem;
     }
 }
@@ -153,11 +153,15 @@ a {
 }
 
 @media only screen and (max-width: 1055px) {
-    .app-container {
-        flex-wrap: wrap;
+    body {
         overflow: auto;
         -webkit-overflow-scrolling: touch;
         max-height: 100vh;
+    }
+
+    .app-container {
+        flex-wrap: wrap;
+        
     }
     
     .image-container {
@@ -169,10 +173,22 @@ a {
         width: 100vw;
         min-height: 50vh;
     }
+
+    .icon-container {
+        & a {
+            font-size: 2rem;
+        }
+    }
+
+    #home-container {
+        & h2 {
+            font-size: 1rem;
+        }
+    }
     
     #mobile-nav {
         display: flex;
-        font-size: 1rem;
+        font-size: .8rem;
 
         & a:hover {
             color: #F0F3BD;
