@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../styles/Layout'
 import Project from '../styles/Project'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => 
 
@@ -21,7 +22,7 @@ export default () =>
                 <p className="icon-caption">View project:</p>
                 <div className="icon-container">
                     <a href="https://codepen.io/scottmalmberg/pen/QXYmZo" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-codepen"></i>
+                        <FontAwesomeIcon icon={["fab", "codepen"]}/>
                     </a>
                 </div>
             </Project>
@@ -43,7 +44,7 @@ export default () =>
                 <p className="icon-caption">View project:</p>
                 <div className="icon-container">
                     <a href="https://scottmalmberg.github.io/pack/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-github"></i>
+                    <FontAwesomeIcon icon={["fab", "github"]}/>
                     </a>
                 </div>
             </Project>
@@ -62,7 +63,7 @@ export default () =>
                 <p className="icon-caption">View project:</p>
                 <div className="icon-container">
                     <a href="https://github.com/ScottMalmberg/personal-site" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-github"></i>
+                    <FontAwesomeIcon icon={["fab", "github"]}/>
                     </a>
                 </div>
             </Project>
