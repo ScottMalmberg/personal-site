@@ -1,9 +1,23 @@
 import React from 'react'
 import Layout from '../styles/Layout'
+import Helmet from 'react-helmet'
 
 export default () => 
 
     <Layout image="url('/images/Fam.JPG')">
+        <Helmet 
+            title="About | Scott Malmberg" 
+            meta={[
+                {
+                    name: "description",
+                    content: "Learn about where I came from, how I got here, and what I'm up to."
+                },
+                {
+                    name: "keywords",
+                    content: "scott malmberg, front end developer"
+                }
+            ]}
+        />        
         <h1>Hi There</h1>
         <p>
             My name is Scott. I was born and raised in Texas, but fell madly in love with nature when I moved to Utah. 

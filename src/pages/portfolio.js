@@ -2,10 +2,24 @@ import React from 'react'
 import Layout from '../styles/Layout'
 import Project from '../styles/Project'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Helmet from 'react-helmet'
 
 export default () => 
 
     <Layout image="url('/images/Tree.JPG')">
+        <Helmet 
+            title="Porfolio | Scott Malmberg" 
+            meta={[
+                {
+                    name: "description",
+                    content: "Check out some of my projects! I like building clean, simple user interfaces."
+                },
+                {
+                    name: "keywords",
+                    content: "scott malmberg, front end developer"
+                }
+            ]}
+        />
         <h1>Here Are Some Things</h1>
         <div id="portfolio-container">
             <Project name="Pug Latin" image="/images/Pug Latin.png">
