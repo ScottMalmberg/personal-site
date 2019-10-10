@@ -22,7 +22,6 @@ export default ({children, image}) =>
                     content: "scott malmberg, front end developer"
                 }
             ]}
-            link={[{rel:"icon", type: "image/x-icon", href: `${favicon}`},]}
         />
             
         <div className="image-container" style={{backgroundImage: image}}>
