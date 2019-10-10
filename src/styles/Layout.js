@@ -15,10 +15,14 @@ export default ({children, image}) =>
             meta={[
                 {
                     name: "description",
-                    content: "Scott Malmberg - Front-End Developer"
+                    content: "Hi! I'm Scott - a front end developer and lots of other things."
+                },
+                {
+                    name: "keywords",
+                    content: "scott malmberg, front end developer"
                 }
             ]}
-            link={[{rel:"shortcut icon", type: "image/x-icon", href: `${favicon}`},]}
+            link={[{rel:"icon", type: "image/x-icon", href: {favicon}},]}
         />
             
         <div className="image-container" style={{backgroundImage: image}}>
