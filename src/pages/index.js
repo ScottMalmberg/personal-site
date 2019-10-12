@@ -32,7 +32,7 @@ export default () =>
         <div className="icon-container">
             <a href="https://github.com/ScottMalmberg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab","github"]}/></a>
             <a href="https://linkedin.com/in/ScottMalmberg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab","linkedin"]}/></a>
-            <a href="mailto:scott.malmberg@icloud.com"><FontAwesomeIcon icon="envelope"/></a>
+            <a href="mailto:scott@scottmalmberg.com"><FontAwesomeIcon icon="envelope"/></a>
         </div>
     </div>
     
