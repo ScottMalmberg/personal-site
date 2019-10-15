@@ -14,15 +14,15 @@ export default () =>
 
 <Layout image={"url('/images/Scott.jpg')"}>
     <Helmet 
-        title="Home | Scott Malmberg" 
+        title="Home | Scott Malmberg | Front-End Developer" 
         meta={[
             {
                 name: "description",
-                content: "Hi! I'm Scott - a front end developer and lots of other things."
+                content: "Hi! I'm Scott Malmberg - a front-end developer, hiker, camper, and lots of other things. Check out my site and connect with me here."
             },
             {
                 name: "keywords",
-                content: "scott malmberg, front end developer"
+                content: "scott malmberg, front-end developer, react developer, javascript developer, HTML/CSS developer"
             }
         ]}
     />

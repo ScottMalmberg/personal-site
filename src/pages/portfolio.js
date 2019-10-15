@@ -8,7 +8,7 @@ export default () =>
 
     <Layout image="url('/images/Tree.JPG')">
         <Helmet 
-            title="Porfolio | Scott Malmberg" 
+            title="Porfolio | Scott Malmberg | Front-End Developer" 
             meta={[
                 {
                     name: "description",
@@ -16,7 +16,7 @@ export default () =>
                 },
                 {
                     name: "keywords",
-                    content: "scott malmberg, front end developer"
+                    content: "scott malmberg, front-end developer, react developer, javascript developer, HTML/CSS developer"
                 }
             ]}
         />

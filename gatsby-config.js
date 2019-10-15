@@ -6,7 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`,`gatsby-plugin-react-helmet`, {
+  plugins: [`gatsby-plugin-sass`,`gatsby-plugin-react-helmet`, `gatsby-plugin-robots-txt`, `gatsby-plugin-sitemap`, {
+    resolve: `gatsby-plugin-google-analytics`,
+      options: {
+         trackingId: `UA-88039298-1`,
+      }
+    },
+    {
     resolve: 'gatsby-plugin-favicon',
     options: {
       logo: './public/favicon.png',
