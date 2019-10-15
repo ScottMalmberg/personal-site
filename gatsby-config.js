@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Scott Malmberg | Front-End Developer`,
+  },
   plugins: [`gatsby-plugin-sass`,`gatsby-plugin-react-helmet`, `gatsby-plugin-robots-txt`, `gatsby-plugin-sitemap`, {
     resolve: `gatsby-plugin-google-analytics`,
       options: {
