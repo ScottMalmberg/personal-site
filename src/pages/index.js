@@ -26,8 +26,11 @@ export default () =>
             }
         ]}
     />
+    <div className="icon-container">
+            <img src="/images/Name.PNG" height="350px"></img>
+    </div>
+
     <div id="home-container">
-        <h1 style={{color: '#F0F3BD'}}><strong>Scott<br/>Malmberg</strong></h1>
         <Descriptor />
         <div className="icon-container">
             <a href="https://github.com/ScottMalmberg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab","github"]}/></a>
