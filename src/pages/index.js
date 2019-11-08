@@ -27,7 +27,7 @@ export default () =>
         ]}
     />
     <div className="icon-container">
-            <img src="/images/Name.PNG" height="350px"></img>
+            <img src="/images/Name.PNG" height="350px" alt="Scott Malmberg logo"></img>
     </div>
 
     <div id="home-container">
