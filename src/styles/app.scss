@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
 
 $light-blue: #A0D3B1;
 $green: #86953D;
@@ -13,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Cutive Mono', monospace;
     margin: 0;
     padding: 0;
     height: 100%;

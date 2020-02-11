@@ -6,7 +6,7 @@ export default () =>
 
     <Layout image="url('/images/Fam.JPG')">
         <Helmet 
-            title="About | Scott Malmberg | Javascript Developer" 
+            title="About | Scott Malmberg | JavaScript Developer" 
             meta={[
                 {
                     name: "description",
@@ -21,7 +21,7 @@ export default () =>
         <h1>Hi There</h1>
         <p>
             My name is Scott. I was born and raised in Texas, but fell madly in love with nature when I moved to Utah. 
-            I'm currently living in Spokane, Washington and have enjoyed exploring the beautiful Pacific Northwest.
+            I'm currently living in Nashville, Tennessee and work as a Full-Stack JavaScript Developer at <a href="https://aloompa.com">Aloompa</a>.
         </p>
         <p>
             After spending the first four years of my career in the digital ads space, I started to realize I enjoyed the tech side of marketing more than anything else.
@@ -33,7 +33,7 @@ export default () =>
         </p>
         <p>
             Honestly, I was caught off-guard by how much I enjoyed learning to code. The feeling of solving a problem after struggling with it for a while has become addicting. 
-            So, I decided to keep learning. I'm currently teaching myself React and Redux and will move on to learning Node.js after that.
+            So, I decided to keep learning. 
         </p>
         <p>
             Besides programming, I try to spend as much time as I can outside hiking, camping, and exploring with my wife and our two dogs. 
