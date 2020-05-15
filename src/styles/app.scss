@@ -85,9 +85,14 @@ a {
 
 #mobile-nav {
     display: none;
-    background: rgba(0,18,30,.8);
+    background: url("../../public/images/Topo.png") center repeat fixed; 
     justify-content: center;
     color: #fefefe;
+    position: sticky;
+    bottom: 0;
+    border-top: 1px solid #fefefe;
+    width: 100%;
+    font-size: .8rem;
 }
 
 #portfolio-container {
@@ -158,8 +163,10 @@ a {
     
     .image-container {
         width: 100vw;
-        height: 50vh;
-        background-position: top;
+        height: 30vh;
+        position: sticky;
+        top: 0;
+        z-index: -1;
     }
 
     .main-container {
@@ -169,6 +176,7 @@ a {
     
     .content-container {
         padding: 1.5rem;
+        align-items: center;
     }
 
     .icon-container {
@@ -191,7 +199,6 @@ a {
     
     #mobile-nav {
         display: flex;
-        font-size: .6rem;
 
         & a:hover {
             color: $green;
