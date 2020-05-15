@@ -24,35 +24,66 @@ export default () => (
     <div className="content-container">
       <h1>Here Are Some Things</h1>
       <div id="portfolio-container">
-        <Project name="Pug Latin" image="/images/Pug Latin.png">
+      <Project name="Recipe Book" image="/images/Recipes.png">
           <p>
-            The idea for Pug Latin was based on FreeCodeCamp's Pig Latin
-            Translator project in their JavaScript course. I wanted to build
-            something different than just another Pig Latin Translator, so Pug
-            Latin happened. I learned:
+            I built this recipe book app shortly after I received my full-stack job offer
+            so I could practice some of the technology I'd be using. I built it fairly quickly,
+            so I went with a Bootstrap design and focused mainly on the back-end. I learned:
           </p>
           <ul>
             <li>
-              How HTML, CSS, and JS all work together to create a user
-              experience.
+              How to work with the Serverless Framework to deploy an API through AWS.
             </li>
             <li>
-              How to trigger a function by interacting with the UI (clicking the
-              button, passing through the text.)
+              How to query and mutate data from a DynamoDB table.
             </li>
             <li>
-              That there are so many different ways to build something, which is
-              both exciting and daunting.
+              How to write resolvers and build a GraphQL schema.
             </li>
+            <li>How to use Apollo Server</li>
+            <li>That I prefer functional React components over class-based.</li>
+            <li>That I enjoy back-end work as well!</li>
           </ul>
           <p className="icon-caption">View project:</p>
           <div className="icon-container">
             <a
-              href="https://codepen.io/scottmalmberg/pen/QXYmZo"
+              href="https://github.com/ScottMalmberg/recipe-book"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "codepen"]} />
+              <FontAwesomeIcon icon={["fab", "github"]} />
+            </a>
+          </div>
+        </Project>
+      <Project name="This Site" image="/images/Personal.png">
+          <p>
+            I wanted to build a clean, fast, modern personal portfolio site that
+            felt familiar, but still unique. To accomplish this, I used Gatsby
+            which made navigation incredibly quick and built a layout componenet
+            to keep the overall style of the site consistent across pages. I
+            also wanted to showcase my love for nature across the site by using
+            pictures of me outside in some of my favorite places. I learned:
+          </p>
+          <ul>
+            <li>
+              How to work with Gatsby including creating layout components and
+              using Links.
+            </li>
+            <li>
+              How to use the setInterval() function to run the function that
+              picks physical and personality characteristics and displays them
+              on the site's homepage.
+            </li>
+            <li>How to deploy to Netlify.</li>
+          </ul>
+          <p className="icon-caption">View project:</p>
+          <div className="icon-container">
+            <a
+              href="https://github.com/ScottMalmberg/personal-site"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </div>
         </Project>
@@ -93,38 +124,40 @@ export default () => (
             </a>
           </div>
         </Project>
-        <Project name="This Site" image="/images/Personal.png">
+        <Project name="Pug Latin" image="/images/Pug Latin.png">
           <p>
-            I wanted to build a clean, fast, modern personal portfolio site that
-            felt familiar, but still unique. To accomplish this, I used Gatsby
-            which made navigation incredibly quick and built a layout componenet
-            to keep the overall style of the site consistent across pages. I
-            also wanted to showcase my love for nature across the site by using
-            pictures of me outside in some of my favorite places. I learned:
+            The idea for Pug Latin was based on FreeCodeCamp's Pig Latin
+            Translator project in their JavaScript course. I wanted to build
+            something different than just another Pig Latin Translator, so Pug
+            Latin happened. I learned:
           </p>
           <ul>
             <li>
-              How to work with Gatsby including creating layout components and
-              using Links.
+              How HTML, CSS, and JS all work together to create a user
+              experience.
             </li>
             <li>
-              How to use the setInterval() function to run the function that
-              picks physical and personality characteristics and displays them
-              on the site's homepage.
+              How to trigger a function by interacting with the UI (clicking the
+              button, passing through the text.)
             </li>
-            <li>How to deploy to Netlify.</li>
+            <li>
+              That there are so many different ways to build something, which is
+              both exciting and daunting.
+            </li>
           </ul>
           <p className="icon-caption">View project:</p>
           <div className="icon-container">
             <a
-              href="https://github.com/ScottMalmberg/personal-site"
+              href="https://codepen.io/scottmalmberg/pen/QXYmZo"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "github"]} />
+              <FontAwesomeIcon icon={["fab", "codepen"]} />
             </a>
           </div>
         </Project>
+        
+        
       </div>
     </div>
   </Layout>

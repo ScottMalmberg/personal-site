@@ -4,12 +4,11 @@ import Layout from "../styles/Layout"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import Helmet from "react-helmet"
 require("../styles/app.scss")
 
 library.add(fab, faEnvelope)
-library.add(fab, faFileAlt)
 
 export default () => (
   <Layout image={"url('/images/Scott.jpg')"}>
@@ -62,13 +61,6 @@ export default () => (
           </a>
           <a href="mailto:scott@scottmalmberg.com">
             <FontAwesomeIcon icon="envelope" />
-          </a>
-          <a
-            href="https://drive.google.com/file/d/176Rj1_34Jbv44T_fl5yXIdimDUYTt_Qg/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon="file-alt" />
           </a>
         </div>
       </div>

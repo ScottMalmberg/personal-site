@@ -24,7 +24,7 @@ export default () => (
       <p>
         My name is Scott. I was born and raised in Texas, but fell madly in love
         with nature when I moved to Utah. I'm currently living in Nashville,
-        Tennessee and was recently laid-off from my Full-Stack JavaScript Developer job due to COVID-19 :(
+        Tennessee working as a Full-Stack JavaScript Developer at Aloompa.
       </p>
       <p>I have experience with:
       <ul>
