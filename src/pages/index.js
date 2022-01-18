@@ -59,7 +59,7 @@ export default () => (
           >
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
-          <a href="mailto:scott@scottmalmberg.com">
+          <a href="mailto:scott.malmberg@icloud.com">
             <FontAwesomeIcon icon="envelope" />
           </a>
         </div>
